@@ -16,6 +16,7 @@ const UserSchema = new Schema({
     required: true,
     default: "USER",
   },
+  watchlist: [{}],
 });
 
 const UserModel = model("User", UserSchema);
